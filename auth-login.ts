@@ -89,3 +89,6 @@ export function logout(
 ) {
   db.execute(`DELETE FROM sessions WHERE user_id = '${userId}'`);
 }
+
+
+
